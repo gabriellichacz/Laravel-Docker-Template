@@ -36,6 +36,6 @@ docker-compose -f deploy/docker-compose.yml exec db bash
 ## Laravel
 
 ### First setting up Laravel project
-- Set up env file
-- Run migrations "make migrate"
-- Run ip addr show eth0, get your docker image ip address and paste it into xdebug.client_host in xdebug.ini (optional)
+- Set up `.env` file
+- Run migrations `make migrate`
+- Run `ip addr show eth0`, get your docker image ip address and paste it into `xdebug.client_host` in `xdebug.ini` (optional)
